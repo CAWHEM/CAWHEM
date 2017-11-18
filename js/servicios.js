@@ -1,5 +1,9 @@
 $(document).ready(
 	function(){
+		/*$('.carousel').carousel({
+	      interval: 5200
+	    });*/
+
 		$(".servicio_consignacion").hide();
 		$(".alquileres").hide();
 		
