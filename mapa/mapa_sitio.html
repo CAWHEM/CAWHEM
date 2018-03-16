@@ -3,14 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name=”description” content=”El paquete Solo Chela te permite obtener cerveza a consignaci&oacute; para tu evento con un m&iacute;nimo de 48 horas de anticipaci&oacute;n. La cantidad m&iacute;nima de cajas que debes pedir son 20 a m&aacute;s, y asumes un compromiso de venta por la mitad del pedido. El Delivery es gratis.”>
+	<meta name=”description” content=”El mapa del sitio te ayudará a guiarte m&aacute;s facilmente por el contenido que tenemos para ofrecerte.”>
 	<meta content="cawhem, CAWHEM, cerveza, cerveza por mayor, cerveza por mayor piura, alquiler, alquiler chanchas, alquiler chanchas piura, alquiler mesas, alquiler mesas piura, alquiler sillas, alquiler sillas piura" name="keywords">
-	<title>CAWHEM - Paquete Solo Chela - Cerveza a Consignaci&oacute;n</title>
+	<title>CAWHEM - Mapa del Sitio</title>
 	<link rel="icon" type="image/png" href="../../img/favicon.png" />
 	<link rel="stylesheet" href="../../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../../css/cawhem.css">
+	<link rel="stylesheet" href="../../js/jstree/themes/default/style.min.css" />
 	<script src="../../js/jquery.min.js"></script>
 	<script src="../../js/bootstrap.min.js"></script>
+	<script src="../../js/jstree/jstree.min.js"></script>
+
 </head>
 <body>
     <!--Inicio Menu-->
@@ -25,7 +28,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">CAWHEM</a>
+		      <a class="navbar-brand" href="../../index.html">CAWHEM</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,29 +42,44 @@
 		</nav>
 	<!--Fin Menu-->
 	<!--Inicio Servicios-->
-	<section id="servicios" data-anchor="servicios">
+	<section id="mapa">
 		<div class="titulo">
-			<h1>Paquete Solo Chela</h1>
+			<h1>Mapa de Sitio CAWHEM</h1>
 			<span class="subraya_titulo"></span>
 		</div>
-	    <div class="servicio_consignacion centra">
-	      <!-- Three columns of text below the carousel -->
-	      <div class="row">
-	        <div class="col-lg-12">
-	          	<div class="contenido_servicio">
-	          		<br>
-	          		<br>
-		          	<h2><i class="glyphicon glyphicon-ok"></i> Disponible solo en la provincia de Piura.</h2>
-		          	<h2><i class="glyphicon glyphicon-ok"></i> El pedido se debe realizar con 48 horas de anticipaci&oacute;n.</h2>
-		          	<h2><i class="glyphicon glyphicon-ok"></i> Pedidos desde 20 a m&aacute;s cajas.</h2>
-		          	<h2><i class="glyphicon glyphicon-ok"></i> Delivery Gratis. El pedido llegar&aacute; de 8:00 pm a 10 pm del d&iacute;a anterior al evento.</h2>
-		          	<h2><i class="glyphicon glyphicon-ok"></i> Comprometido a vender la mitad de su pedido.</h2>
-		          	<h2><i class="glyphicon glyphicon-ok"></i>Accede a precios exclusivos para alquiler de sillas, mesas y chanchas.</h2>
-	          	</div>
-	          <a class="btn btn-danger" href="../../index.html#contactanos" role="button">Contactanos »</a>
-	        </div><!-- /.col-lg-4 -->
-	      </div><!-- /.row -->
-	    </div>	
+		<div id="mapa_sitio">
+			<ul>
+		        <li><a href="../../index.html">Principal CAWHEM</a>
+		        	<ul>
+		        		<li><a href="#">Cerveza</a>
+		        			<ul>
+		        				<li><a href="#">Contado</a>
+		        					<ul>
+				        				<li><a href="../cerveza/contado/paquete-basico-programado.html">Paquete B&aacute;sico Programado</a></li>
+				        				<li><a href="../cerveza/contado/paquete-basico-urgente.html">Paquete B&aacute;sico Urgente</a></li>
+				        				<li><a href="../cerveza/contado/paquete-chela-urgente.html">Paquete Chela Urgente</a></li>
+				        				<li><a href="../cerveza/contado/paquete-full-juerga.html">Paquete Full Juerga</a></li>
+				        			</ul>
+		        				</li>
+		        				<li><a href="#">Consignaci&oacute;n</a>
+		        					<ul>
+				        				<li><a href="../cerveza/consignacion/paquete-cawhem.html">Paquete CAWHEM</a></li>
+				        				<li><a href="../cerveza/consignacion/paquete-solo-chela.html">Paquete Solo Chela</a></li>
+				        			</ul>
+		        				</li>
+		        			</ul>
+		        		</li>
+		        		<li><a href="#">Alquiler</a>
+		        			<ul>
+		        				<li><a href="../alquiler/sillas/alquiler-sillas.html">Sillas</a></li>
+		        				<li><a href="../alquiler/mesas/alquiler-mesas.html">Mesas</a></li>
+		        				<li><a href="../alquiler/sillas/alquiler-chanchas.html">Chanchas</a></li>
+		        			</ul>
+		        		</li>
+		        	</ul>
+		        </li>
+		    </ul>
+		</div>
 	</section>
 	<!--Fin Servicios-->
 	<hr>
@@ -69,5 +87,6 @@
         <p>© 2018 CAWHEM. Todos los derechos reservados.</p>
      </footer>
 	</div>
+	<script src="../../js/servicios.js"></script>
 </body>
 </html>

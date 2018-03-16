@@ -37,5 +37,13 @@ $(document).ready(
 			var strAncla = '#' + $(this).data('scroll');
 			$('html,body').animate({scrollTop: $(strAncla).offset().top}, 2000);
 		});
+
+		$('#mapa_sitio').jstree({
+			"core" : {
+			    "themes" : {
+			      "variant" : "large"
+			    }
+			}
+		});
 	}
 );
