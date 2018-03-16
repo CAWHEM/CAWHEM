@@ -7,6 +7,62 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /cerveza/
+  static_files: cerveza/index.html
+  upload: cerveza/index.html  
+
+- url: /cerveza
+  static_files: cerveza/index.html
+  upload: cerveza/index.html    
+
+- url: /cerveza/contado/
+  static_files: cerveza/contado/index.html
+  upload: cerveza/contado/index.html  
+
+- url: /cerveza/contado
+  static_files: cerveza/contado/index.html
+  upload: cerveza/contado/index.html      
+
+- url: /cerveza/consignacion/
+  static_files: cerveza/consignacion/index.html
+  upload: cerveza/consignacion/index.html 
+
+- url: /cerveza/consignacion
+  static_files: cerveza/consignacion/index.html
+  upload: cerveza/consignacion/index.html   
+
+- url: /alquiler/
+  static_files: alquiler/index.html
+  upload: alquiler/index.html
+
+- url: /alquiler
+  static_files: alquiler/index.html
+  upload: alquiler/index.html     
+
+- url: /alquiler/sillas/
+  static_files: alquiler/sillas/index.html
+  upload: alquiler/sillas/index.html 
+
+- url: /alquiler/sillas
+  static_files: alquiler/sillas/index.html
+  upload: alquiler/sillas/index.html 
+
+- url: /alquiler/mesas/
+  static_files: alquiler/mesas/index.html
+  upload: alquiler/mesas/index.html  
+
+- url: /alquiler/mesas
+  static_files: alquiler/mesas/index.html
+  upload: alquiler/mesas/index.html  
+
+- url: /alquiler/chanchas/
+  static_files: alquiler/chanchas/index.html
+  upload: alquiler/chanchas/index.html 
+
+- url: /alquiler/chanchas
+  static_files: alquiler/chanchas/index.html
+  upload: alquiler/chanchas/index.html 
+
 - url: /(.*)
   static_files: \1
   upload: (.*)
