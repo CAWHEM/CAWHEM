@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.cawhem.com/</loc>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/servicios/chancha.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/servicios/mesa.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/servicios/silla.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/socios/carlos_nole.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/socios/wilson_neira.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/socios/elvia_abad.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/socios/elvia_abad.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/cawhem-gif-principal.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.cawhem.com/img/cawhem-principal.png</image:loc>
+    </image:image>
+  </url> 
+</urlset> 
