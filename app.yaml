@@ -40,28 +40,28 @@ handlers:
   upload: alquiler/index.html     
 
 - url: /alquiler/sillas/
-  static_files: alquiler/sillas/index.html
-  upload: alquiler/sillas/index.html 
+  static_files: alquiler/sillas/alquiler-sillas.html
+  upload: alquiler/sillas/alquiler-sillas.html 
 
 - url: /alquiler/sillas
-  static_files: alquiler/sillas/index.html
-  upload: alquiler/sillas/index.html 
+  static_files: alquiler/sillas/alquiler-sillas.html
+  upload: alquiler/sillas/alquiler-sillas.html 
 
 - url: /alquiler/mesas/
-  static_files: alquiler/mesas/index.html
-  upload: alquiler/mesas/index.html  
+  static_files: alquiler/mesas/alquiler-mesas.html
+  upload: alquiler/mesas/alquiler-mesas.html  
 
 - url: /alquiler/mesas
-  static_files: alquiler/mesas/index.html
-  upload: alquiler/mesas/index.html  
+  static_files: alquiler/mesas/alquiler-mesas.html
+  upload: alquiler/mesas/alquiler-mesas.html  
 
 - url: /alquiler/chanchas/
-  static_files: alquiler/chanchas/index.html
-  upload: alquiler/chanchas/index.html 
+  static_files: alquiler/chanchas/alquiler-chanchas.html
+  upload: alquiler/chanchas/alquiler-chanchas.html 
 
 - url: /alquiler/chanchas
-  static_files: alquiler/chanchas/index.html
-  upload: alquiler/chanchas/index.html 
+  static_files: alquiler/chanchas/alquiler-chanchas.html
+  upload: alquiler/chanchas/alquiler-chanchas.html 
 
 - url: /(.*)
   static_files: \1
