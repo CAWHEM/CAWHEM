@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /alquiler
+Allow: /cerveza
+Allow: /mapa
+Allow: /img/servicios
+Allow: /img/socios
+Disallow: /css
+Disallow: /fonts
+Disallow: /js
+Disallow: /img/social
